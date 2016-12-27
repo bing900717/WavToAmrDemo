@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB072B4C1E10F65A002A535D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB072B4B1E10F65A002A535D /* TableViewController.m */; };
+		BB35A08F1E12450F00C4C27A /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB35A0821E12450F00C4C27A /* amrFileCodec.mm */; };
+		BB35A0901E12450F00C4C27A /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB35A0841E12450F00C4C27A /* wav.mm */; };
+		BB35A0911E12450F00C4C27A /* EMVoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB35A0861E12450F00C4C27A /* EMVoiceConverter.mm */; };
+		BB35A0921E12450F00C4C27A /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB35A08A1E12450F00C4C27A /* libopencore-amrnb.a */; };
+		BB35A0931E12450F00C4C27A /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB35A08E1E12450F00C4C27A /* libopencore-amrwb.a */; };
+		BB6D02931E0A7BB0007BB412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6D02921E0A7BB0007BB412 /* main.m */; };
+		BB6D02961E0A7BB0007BB412 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6D02951E0A7BB0007BB412 /* AppDelegate.m */; };
+		BB6D02991E0A7BB0007BB412 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6D02981E0A7BB0007BB412 /* ViewController.m */; };
+		BB6D029C1E0A7BB0007BB412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6D029A1E0A7BB0007BB412 /* Main.storyboard */; };
+		BB6D029E1E0A7BB0007BB412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6D029D1E0A7BB0007BB412 /* Assets.xcassets */; };
+		BB6D02A11E0A7BB0007BB412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6D029F1E0A7BB0007BB412 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB072B4A1E10F65A002A535D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BB072B4B1E10F65A002A535D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		BB35A0811E12450F00C4C27A /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		BB35A0821E12450F00C4C27A /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		BB35A0831E12450F00C4C27A /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		BB35A0841E12450F00C4C27A /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		BB35A0851E12450F00C4C27A /* EMVoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVoiceConverter.h; sourceTree = "<group>"; };
+		BB35A0861E12450F00C4C27A /* EMVoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EMVoiceConverter.mm; sourceTree = "<group>"; };
+		BB35A0881E12450F00C4C27A /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		BB35A0891E12450F00C4C27A /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		BB35A08A1E12450F00C4C27A /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		BB35A08C1E12450F00C4C27A /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		BB35A08D1E12450F00C4C27A /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		BB35A08E1E12450F00C4C27A /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		BB6D028E1E0A7BB0007BB412 /* AvAudioRecord-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AvAudioRecord-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6D02921E0A7BB0007BB412 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB6D02941E0A7BB0007BB412 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB6D02951E0A7BB0007BB412 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB6D02971E0A7BB0007BB412 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB6D02981E0A7BB0007BB412 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB6D029B1E0A7BB0007BB412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB6D029D1E0A7BB0007BB412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB6D02A01E0A7BB0007BB412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB6D02A21E0A7BB0007BB412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6D028B1E0A7BB0007BB412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB35A0931E12450F00C4C27A /* libopencore-amrwb.a in Frameworks */,
+				BB35A0921E12450F00C4C27A /* libopencore-amrnb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB35A07F1E12450F00C4C27A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				BB35A0801E12450F00C4C27A /* amrwapper */,
+				BB35A0851E12450F00C4C27A /* EMVoiceConverter.h */,
+				BB35A0861E12450F00C4C27A /* EMVoiceConverter.mm */,
+				BB35A0871E12450F00C4C27A /* opencore-amrnb */,
+				BB35A08B1E12450F00C4C27A /* opencore-amrwb */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		BB35A0801E12450F00C4C27A /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				BB35A0811E12450F00C4C27A /* amrFileCodec.h */,
+				BB35A0821E12450F00C4C27A /* amrFileCodec.mm */,
+				BB35A0831E12450F00C4C27A /* wav.h */,
+				BB35A0841E12450F00C4C27A /* wav.mm */,
+			);
+			path = amrwapper;
+			sourceTree = "<group>";
+		};
+		BB35A0871E12450F00C4C27A /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				BB35A0881E12450F00C4C27A /* interf_dec.h */,
+				BB35A0891E12450F00C4C27A /* interf_enc.h */,
+				BB35A08A1E12450F00C4C27A /* libopencore-amrnb.a */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		BB35A08B1E12450F00C4C27A /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				BB35A08C1E12450F00C4C27A /* dec_if.h */,
+				BB35A08D1E12450F00C4C27A /* if_rom.h */,
+				BB35A08E1E12450F00C4C27A /* libopencore-amrwb.a */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		BB6D02851E0A7BB0007BB412 = {
+			isa = PBXGroup;
+			children = (
+				BB6D02901E0A7BB0007BB412 /* AvAudioRecord-Test */,
+				BB6D028F1E0A7BB0007BB412 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6D028F1E0A7BB0007BB412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6D028E1E0A7BB0007BB412 /* AvAudioRecord-Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB6D02901E0A7BB0007BB412 /* AvAudioRecord-Test */ = {
+			isa = PBXGroup;
+			children = (
+				BB35A07F1E12450F00C4C27A /* Lib */,
+				BB6D02941E0A7BB0007BB412 /* AppDelegate.h */,
+				BB6D02951E0A7BB0007BB412 /* AppDelegate.m */,
+				BB6D02971E0A7BB0007BB412 /* ViewController.h */,
+				BB6D02981E0A7BB0007BB412 /* ViewController.m */,
+				BB072B4A1E10F65A002A535D /* TableViewController.h */,
+				BB072B4B1E10F65A002A535D /* TableViewController.m */,
+				BB6D029A1E0A7BB0007BB412 /* Main.storyboard */,
+				BB6D029D1E0A7BB0007BB412 /* Assets.xcassets */,
+				BB6D029F1E0A7BB0007BB412 /* LaunchScreen.storyboard */,
+				BB6D02A21E0A7BB0007BB412 /* Info.plist */,
+				BB6D02911E0A7BB0007BB412 /* Supporting Files */,
+			);
+			path = "AvAudioRecord-Test";
+			sourceTree = "<group>";
+		};
+		BB6D02911E0A7BB0007BB412 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB6D02921E0A7BB0007BB412 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB6D028D1E0A7BB0007BB412 /* AvAudioRecord-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6D02A51E0A7BB0007BB412 /* Build configuration list for PBXNativeTarget "AvAudioRecord-Test" */;
+			buildPhases = (
+				BB6D028A1E0A7BB0007BB412 /* Sources */,
+				BB6D028B1E0A7BB0007BB412 /* Frameworks */,
+				BB6D028C1E0A7BB0007BB412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AvAudioRecord-Test";
+			productName = "AvAudioRecord-Test";
+			productReference = BB6D028E1E0A7BB0007BB412 /* AvAudioRecord-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6D02861E0A7BB0007BB412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yaoxb;
+				TargetAttributes = {
+					BB6D028D1E0A7BB0007BB412 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Y6YK82ZVNS;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = BB6D02891E0A7BB0007BB412 /* Build configuration list for PBXProject "AvAudioRecord-Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB6D02851E0A7BB0007BB412;
+			productRefGroup = BB6D028F1E0A7BB0007BB412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6D028D1E0A7BB0007BB412 /* AvAudioRecord-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6D028C1E0A7BB0007BB412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6D02A11E0A7BB0007BB412 /* LaunchScreen.storyboard in Resources */,
+				BB6D029E1E0A7BB0007BB412 /* Assets.xcassets in Resources */,
+				BB6D029C1E0A7BB0007BB412 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6D028A1E0A7BB0007BB412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB35A0911E12450F00C4C27A /* EMVoiceConverter.mm in Sources */,
+				BB6D02991E0A7BB0007BB412 /* ViewController.m in Sources */,
+				BB6D02961E0A7BB0007BB412 /* AppDelegate.m in Sources */,
+				BB6D02931E0A7BB0007BB412 /* main.m in Sources */,
+				BB072B4C1E10F65A002A535D /* TableViewController.m in Sources */,
+				BB35A0901E12450F00C4C27A /* wav.mm in Sources */,
+				BB35A08F1E12450F00C4C27A /* amrFileCodec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB6D029A1E0A7BB0007BB412 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6D029B1E0A7BB0007BB412 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB6D029F1E0A7BB0007BB412 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6D02A01E0A7BB0007BB412 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB6D02A31E0A7BB0007BB412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB6D02A41E0A7BB0007BB412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB6D02A61E0A7BB0007BB412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6YK82ZVNS;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "AvAudioRecord-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AvAudioRecord-Test/VoiceConvert-master\\ 2/opencore-amrnb",
+					"$(PROJECT_DIR)/AvAudioRecord-Test/VoiceConvert-master\\ 2/opencore-amrwb",
+					"$(PROJECT_DIR)/AvAudioRecord-Test/Lib/opencore-amrnb",
+					"$(PROJECT_DIR)/AvAudioRecord-Test/Lib/opencore-amrwb",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramnova.AvAudioRecord-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "44b0f478-efdb-499b-af14-47d3c90972e2";
+				PROVISIONING_PROFILE_SPECIFIER = dev_allPattern;
+			};
+			name = Debug;
+		};
+		BB6D02A71E0A7BB0007BB412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "AvAudioRecord-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AvAudioRecord-Test/VoiceConvert-master\\ 2/opencore-amrnb",
+					"$(PROJECT_DIR)/AvAudioRecord-Test/VoiceConvert-master\\ 2/opencore-amrwb",
+					"$(PROJECT_DIR)/AvAudioRecord-Test/Lib/opencore-amrnb",
+					"$(PROJECT_DIR)/AvAudioRecord-Test/Lib/opencore-amrwb",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ramnova.AvAudioRecord-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6D02891E0A7BB0007BB412 /* Build configuration list for PBXProject "AvAudioRecord-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6D02A31E0A7BB0007BB412 /* Debug */,
+				BB6D02A41E0A7BB0007BB412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6D02A51E0A7BB0007BB412 /* Build configuration list for PBXNativeTarget "AvAudioRecord-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6D02A61E0A7BB0007BB412 /* Debug */,
+				BB6D02A71E0A7BB0007BB412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB6D02861E0A7BB0007BB412 /* Project object */;
+}
